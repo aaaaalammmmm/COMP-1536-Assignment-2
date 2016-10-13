@@ -34,6 +34,21 @@ footer {
 	margin: auto;
 }
 
+#buttons {
+    list-style-type: none;
+    max-width: 35%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#buttons li {
+    float: left;
+    display: block;
+    width: 30%;
+    padding: 0 1.6% 0 1.6%;
+}
+
 #contact-table {
 	margin:auto;
 }
