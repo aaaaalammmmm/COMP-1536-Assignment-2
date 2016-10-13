@@ -16,6 +16,9 @@ img {
     font-family: sans-serif;
 }
 
+nav {
+	text-align: center;
+}
 #footer-line {
 	border-color: black;
     width: auto;
