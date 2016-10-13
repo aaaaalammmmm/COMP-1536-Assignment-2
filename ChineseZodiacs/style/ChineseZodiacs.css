@@ -1,0 +1,111 @@
+body {
+	background-color: floralwhite;
+    margin: auto;
+}
+
+img {
+    width: 80%;
+    position: center;
+}
+
+#container {
+	background-color: floralwhite;
+	text-align: center;
+	width: 85%;
+	margin: auto;
+    font-family: sans-serif;
+}
+
+#footer-line {
+	border-color: black;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#name-input, #email-input, #comment-input, #submit-input {
+	width: 75%;
+	margin: auto;
+}
+
+#contact-table {
+	margin:auto;
+}
+
+#banner {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+#content {
+    text-align: center;
+}
+
+#img1 {
+    width:110px;
+    height:90px;
+}
+
+#img2 {
+    width:150px;
+    height:95px;
+}
+
+#img3 {
+    width:150px;
+    height:76px;
+}
+
+#img4 {
+    width:130px;
+    height:80px;
+}
+
+#img5 {
+    width:130px;
+    height:125px;
+}
+
+#img6 {
+    width:130px;
+    height:115px; 
+}
+
+#img7 {
+    width:130px;
+    height:115px;
+}
+
+#img8 {
+    width:120px;
+    height:110px; 
+}
+
+#img9 {
+    width:97px;
+    height:120px; 
+}
+
+#img01 {
+    width:95px;
+    height:110px;
+}
+
+#img02 {
+    width:105px;
+    height:95px;
+}
+
+#img03 {
+    width:140px;
+    height:95px;
+}
+
+#zodiac-wheel {
+    width: auto;
+    height: auto;
+}
