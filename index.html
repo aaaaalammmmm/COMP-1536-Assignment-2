@@ -3,8 +3,11 @@
 <head> 
 	<title>Chinese Zodiac</title> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
 	<link rel="stylesheet" type="text/css" href="style/ChineseZodiacs.css" />
-	<link rel="stylesheet" type="text/css" href="style/bootstrap-3.3.7-dist/css/bootstrap.min.css" /> 
+	<link href="style/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"/ >
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head> 
 <body>
 	<div id="container" class="container">
@@ -12,16 +15,16 @@
 			<div id="banner">
 				<img src="images/ChineseZodiacBanner1.png" alt="The Chinese Zodiac"/>
             </div> 
-			<nav id="buttons" class="navbar">
-				<li>
-					<ul><a href="index.html"><img src="images/homepage.png" alt="homepage" /></a></ul>
-					<ul><a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a></ul>
-					<ul><a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a></ul>
-				</li>
+			<nav id="buttons">
+				<ul>
+					<li class="col-sm-4"><a href="index.html"><img src="images/homepage.png" alt="homepage" /></a></li>
+					<li class="col-sm-4"><a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a></li>
+					<li class="col-sm-4"><a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a></li>
+				</ul>
 			</nav>
 		</header>
 		<section>
-			<img id="zodiac-wheel" src="images/zodiac-wheel.png" alt="zodiac-wheel" />
+			<img class="img-responsive" id="zodiac-wheel" src="images/zodiac-wheel.png" alt="zodiac-wheel" />
 			<p>The Chinese zodiac is the classification scheme that assigns an animal to each year in a repeating twelve-year cycle. The 12-year cycle of Chinese zodiac is an approximation to the 11.86-year cycle of Jupiter, the largest planet of the solar system.[1] There is a similar concept in western astrology and means "circle of animals". It is a scheme and systematic plan of future action that relates each year to an animal and its reputed attributes according to a 12-year cycle. It remains popular in several East Asian countries including China, Vietnam, Korea, Japan, Philippines, Thailand and Taiwan.</p>
 			<p>This was taken directly off from <a href="https://en.wikipedia.org/wiki/Chinese_zodiac">Wikipedia</a></p>
 		</section> 
