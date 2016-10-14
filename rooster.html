@@ -10,20 +10,24 @@
 	<script src="js/bootstrap.min.js"></script>
 </head> 
 <body> 
-	<div id="container">
+	<div id="container" class="container-fluid">
 		<header>
-			<div id="banner">
+			<div class ="visible-md visible-lg" id="banner-desktop">
 				<img src="images/ChineseZodiacBanner1.png" alt="The Chinese Zodiac"/>
-            </div> 
+            </div>
+			<div class ="visible-xs visible-sm" id="banner-mobile">
+				<h2>Chinese Zodiac</h2>
+				<h3>BCIT Introduction Course on Web Development</h3>
+            </div> 			
 			<nav id="buttons">
 				<div class="row">
-					<div class="col-sm-4"><a href="index.html"><img src="images/homepage.png" alt="homepage" /></a></div>
-					<div class="col-sm-4"><a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a></div>
-					<div class="col-sm-4"><a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a></div>
+					<div class="col-md-4"><a href="index.html"><img src="images/homepage.png" alt="homepage" /></a></div>
+					<div class="col-md-4"><a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a></div>
+					<div class="col-md-4"><a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a></div>
 				</div>
 			</nav>
 		</header>
-		<div id="content">
+		<section>
 			<h2>The Rooster</h2>
 				<img src="images/99rooster.png" style="width:270px;height:250px;" alt="The Rooster"/>
 				  <p><b>Strengths:</b></p>
@@ -32,7 +36,7 @@
 						<p>Critical, narrow-minded, selfish</p>
 					<p><b>Lucky Flowers:</b></p>
 						<p>Gladiola, impatiens, cockscomb</p>
-		</div>
+		</section>
 		<footer>
 			<div id="footer-line">
 				<hr />
