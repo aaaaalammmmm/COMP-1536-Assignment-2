@@ -13,6 +13,10 @@ form {
 	margin: auto;
 }
 
+.line-break {
+
+}
+
 #container {
 	background-color: floralwhite;
 	text-align: center;
@@ -45,7 +49,7 @@ footer {
 
 #buttons {
     list-style-type: none;
-    max-width: 45%;
+    max-width: 40%;
     margin: auto;
     padding: 0;
     overflow: hidden;
