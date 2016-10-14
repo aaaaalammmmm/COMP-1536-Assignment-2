@@ -23,35 +23,32 @@
 				</div>
 			</nav>
 		</header>
-		<div id="contact-form">
+		<section>
 			<form action="http://php.vncvr.ca/zodiac/" method="post">
-				<table id="contact-table">
-				<caption>Contact Us</caption>
-					<tr>
-						<td>Name: </td><td><input type="text" name="Name" id="name-input" /></td>
-					</tr>
-					<tr>
-						<td>Email: </td><td><input type="text" name="Email" id="email-input" /></td>
-					</tr>
-					<tr>
-						<td>Comment: </td><td><textarea name="Comment" rows="10" cols="30" id="comment-input" ></textarea></td>
-					</tr>
-					<tr>
-						<td></td><td colspan="2"><input type="submit" name="Submit" id="submit-input" /></td>
-					</tr>
-				</table>
+				<div class="form-group">
+				  <label for="usr">Name:</label>
+				  <input type="text" class="form-control" name="Name" id="usr" placeholder="Enter name">
+				</div>
+				<div class="form-group">
+				  <label for="email">Email:</label>
+				  <input type="email" class="form-control" name="Email" id="email" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+				  <label for="comment">Comment:</label>
+				  <textarea class="form-control" rows="5" name="Comment" id="comment" placeholder="Enter comment"></textarea>
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
 				<p><input type="hidden" name="Student1Name" value="Sally Lee" /></p>
 				<p><input type="hidden" name="Student2Name" value="Angus Lam" /></p>
 				<p><input type="hidden" name="Set" value="1D" /></p>
 			</form>
-		</div>
-		
+	    </section>	
 		<footer>
 			<div id="footer-line">
 				<hr />
 			</div>
 			<p>
-             Angus Lam, A00981172, Set 1D,  <a href='mai&#108;to&#58;%6&#49;ngu&#115;%&#54;C2&#48;&#48;%3&#52;&#64;%67%6Dail%&#50;&#69;com'>angusl2004@gmail.com</a><br />
+            Angus Lam, A00981172, Set 1D, <a href='mai&#108;to&#58;%6&#49;ngu&#115;%&#54;C2&#48;&#48;%3&#52;&#64;%67%6Dail%&#50;&#69;com'>angusl2004@gmail.com</a><br />
 			Kyungwon Lee, A00986260, Set 1D, <a href='m&#97;i&#108;t&#111;&#58;l%&#54;5&#37;&#54;5sall%7&#57;&#95;%4&#48;&#104;%6Ftm%61%&#54;9&#108;&#46;&#99;o%6D'>leesally_@hotmail.com</a>
             </p>
 		</footer>
