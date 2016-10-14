@@ -36,7 +36,7 @@ footer {
 
 #buttons {
     list-style-type: none;
-    max-width: 35%;
+    max-width: 45%;
     margin: auto;
     padding: 0;
     overflow: hidden;
@@ -45,7 +45,6 @@ footer {
 #buttons li {
     float: left;
     display: block;
-    width: 30%;
     padding: 0 1.6% 0 1.6%;
 }
 
