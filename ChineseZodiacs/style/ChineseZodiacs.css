@@ -8,12 +8,21 @@ img {
     position: center;
 }
 
+form {
+	width: 300px;
+	margin: auto;
+}
+
 #container {
 	background-color: floralwhite;
 	text-align: center;
 	width: 85%;
 	margin: auto;
     font-family: sans-serif;
+}
+
+caption {
+	align: center;
 }
 
 nav {
