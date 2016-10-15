@@ -8,12 +8,25 @@ img {
     position: center;
 }
 
+form {
+	width: 300px;
+	margin: auto;
+}
+
+.line-break {
+
+}
+
 #container {
 	background-color: floralwhite;
 	text-align: center;
 	width: 85%;
 	margin: auto;
     font-family: sans-serif;
+}
+
+caption {
+	align: center;
 }
 
 nav {
@@ -36,7 +49,7 @@ footer {
 
 #buttons {
     list-style-type: none;
-    max-width: 45%;
+    max-width: 35%;
     margin: auto;
     padding: 0;
     overflow: hidden;
@@ -52,7 +65,7 @@ footer {
 	margin:auto;
 }
 
-#banner {
+#banner-desktop {
     text-align: center;
     margin: auto;
     width: 80%;
