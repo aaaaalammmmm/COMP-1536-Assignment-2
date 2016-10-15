@@ -3,21 +3,60 @@
  <head> 
 	<title>Chinese Zodiac</title> 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/ >
 	<link rel="stylesheet" href="style/ChineseZodiacs.css" /> 
+    <link href="style/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" media="screen"/ >
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+   }
+   </style>
 </head> 
 <body>
-    <div id="container">
-		<div id="site-header">
+    <div id="container" class="container-fluid">
+		<header>
 			<div id="banner">
-					<img src="images/ChineseZodiacBanner1.png" alt="The Chinese Zodiac" />
-			</div> 
-			<div id="navigate">
-				<a href="index.html"><img src="images/homepage.png" alt="homepage" /></a>
-				<a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a>
-				<a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a>
-			</div>
-		</div>
+				<img src="images/ChineseZodiacBanner1.png" alt="The Chinese Zodiac"/>
+            </div> 
+            <div class ="visible-md visible-lg" id="banner-desktop">
+ +				<img src="images/ChineseZodiacBanner1.png" alt="The Chinese Zodiac"/>
+ +            </div>
+ +			<div class ="visible-xs visible-sm" id="banner-mobile">
+ +				<h2>Chinese Zodiac</h2>
+ +				<h3>BCIT Introduction Course on Web Development</h3>
+ +            </div> 		
+			<nav id="buttons">
+				<div class="row">
+					<div class="col-sm-4"><a href="index.html"><img src="images/homepage.png" alt="homepage" /></a></div>
+ -					<div class="col-sm-4"><a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a></div>
+ -					<div class="col-sm-4"><a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a></div>
+ +					<div class="col-md-4"><a href="index.html"><img src="images/homepage.png" alt="homepage" /></a></div>
+ +					<div class="col-md-4"><a href="12signs.html"><img src="images/12signs.png" alt="12 Signs" /></a></div>
+ +					<div class="col-md-4"><a href="contactus.html"><img src="images/contactus.png" alt="Contact Us" /></a></div>
+				</div>
+			</nav>
+		</header>
 		<div id="zodiac-links">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>                  
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                    <li data-target="#myCarousel" data-slide-to="9"></li>
+                    <li data-target="#myCarousel" data-slide-to="10"></li>
+                    <li data-target="#myCarousel" data-slide-to="11"></li>  
+                </ol>
 			<h2>12 Zodiacs</h2>
 				<a href="rat.xhtml"><img src="images/1rat.png" id="img1" alt="The Rat" /></a>
 				<a href="ox.xhtml"><img src="images/2ox.png" id="img2" alt="The Ox" /></a>
@@ -31,6 +70,7 @@
 				<a href="rooster.xhtml"><img src="images/99rooster.png" id="img01" alt="The Rooster" /></a>
 				<a href="dog.xhtml"><img src="images/999dog.png" id="img02" alt="The Dog" /></a>
 				<a href="pig.xhtml"><img src="images/9999pig.png" id="img03" alt="The Pig" /></a>
+            </div>
 		</div> 
 		<div id="footer-line">
 			<hr />
