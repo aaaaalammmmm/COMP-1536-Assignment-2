@@ -47,18 +47,23 @@ footer {
 	margin: auto;
 }
 
-#buttons {
-    list-style-type: none;
-    max-width: 35%;
+.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+}
+
+#buttons-mobile  {
     margin: auto;
+	width: 120px;
     padding: 0;
     overflow: hidden;
 }
 
-#buttons li {
-    float: left;
-    display: block;
-    padding: 0 1.6% 0 1.6%;
+#buttons-desktop {
+    margin: auto;
+	width: 420px;
+    padding: 0;
+    overflow: hidden;
 }
 
 #contact-table {
