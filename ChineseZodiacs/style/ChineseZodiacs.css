@@ -21,9 +21,14 @@ form {
 #container {
 	background-color: #fffaf0;
 	text-align: center;
-	width: 85%;
 	margin: auto;
     font-family: sans-serif;
+}
+
+#article {
+    width: 85%;
+    text-align: center;
+    margin: auto;
 }
 
 caption {
