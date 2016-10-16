@@ -80,64 +80,76 @@ footer {
     text-align: center;
 }
 
-#rat {
+#rat, #rat-mobile {
     width:110px;
     height:90px;
+    margin: auto;
 }
 
-#ox {
+#ox, #ox-mobile {
     width:150px;
     height:95px;
+    margin: auto;
 }
 
-#tiger {
+#tiger, #tiger-mobile {
     width:150px;
     height:76px;
+    margin: auto;
 }
 
-#rabbtit {
+#rabbit, #rabbit-mobile {
     width:130px;
     height:80px;
+    margin: auto;
 }
 
-#dragon {
+#dragon, #dragon-mobile {
     width:130px;
     height:125px;
+    margin: auto;
 }
 
-#snake {
+#snake, #snake-mobile {
     width:130px;
     height:115px; 
+    margin: auto;
 }
 
-#horse {
+#horse, #horse-mobile {
     width:130px;
     height:115px;
+    margin: auto;
 }
 
-#sheep {
+#sheep, #sheep-mobile {
     width:120px;
     height:110px; 
+    margin: auto;
 }
 
-#monkey {
+#monkey, #monkey-mobile {
     width:97px;
     height:120px; 
+    margin: auto;
 }
 
-#rooster {
+#rooster, #rooster-mobile {
     width:95px;
     height:110px;
+    margin: auto;
 }
 
-#dog {
-    width:105px;
+#dog, #dog-mobile {
+    width:125px;
     height:95px;
+    margin: auto;
 }
 
-#pig {
+#pig, #pig-mobile {
     width:140px;
     height:95px;
+    margin: auto;
 }
 
 #zodiac-wheel {
