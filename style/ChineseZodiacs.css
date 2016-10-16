@@ -1,11 +1,12 @@
 body {
-	background-color: floralwhite;
+	background: #fffaf0;
     margin: auto;
+    
 }
 
 img {
     width: 80%;
-    position: center;
+    text-align: center;
 }
 
 form {
@@ -18,7 +19,7 @@ form {
 }
 
 #container {
-	background-color: floralwhite;
+	background-color: #fffaf0;
 	text-align: center;
 	width: 85%;
 	margin: auto;
