@@ -26,7 +26,7 @@ form {
 }
 
 caption {
-	align: center;
+	text-align: center;
 }
 
 nav {
@@ -86,9 +86,21 @@ footer {
     margin: auto;
 }
 
+#rat-desktop {
+    width:300px;
+    height:228px;
+    margin: auto;
+}
+
 #ox, #ox-mobile {
     width:150px;
     height:95px;
+    margin: auto;
+}
+
+#ox-desktop {
+    width:355px;
+    height:228px;
     margin: auto;
 }
 
@@ -98,9 +110,21 @@ footer {
     margin: auto;
 }
 
+#tiger-desktop {
+    width:430px;
+    height:228px;
+    margin: auto;
+}
+
 #rabbit, #rabbit-mobile {
     width:130px;
     height:80px;
+    margin: auto;
+}
+
+#rabbit-desktop {
+    width:360px;
+    height:228px;
     margin: auto;
 }
 
@@ -110,9 +134,21 @@ footer {
     margin: auto;
 }
 
+#dragon-desktop {
+    width:340px;
+    height:300px;
+    margin: auto;
+}
+
 #snake, #snake-mobile {
     width:130px;
     height:115px; 
+    margin: auto;
+}
+
+#snake-desktop {
+    width:300px;
+    height:228px;
     margin: auto;
 }
 
@@ -122,9 +158,21 @@ footer {
     margin: auto;
 }
 
+#horse-desktop {
+    width:360px;
+    height:290px;
+    margin: auto;
+}
+
 #sheep, #sheep-mobile {
     width:120px;
     height:110px; 
+    margin: auto;
+}
+
+#sheep-desktop {
+    width:300px;
+    height:228px;
     margin: auto;
 }
 
@@ -134,9 +182,21 @@ footer {
     margin: auto;
 }
 
+#monkey-desktop {
+    width:260px;
+    height:250px;
+    margin: auto;
+}
+
 #rooster, #rooster-mobile {
     width:95px;
     height:110px;
+    margin: auto;
+}
+
+#rooster-desktop {
+    width:270px;
+    height:250px;
     margin: auto;
 }
 
@@ -146,9 +206,21 @@ footer {
     margin: auto;
 }
 
+#dog-desktop {
+    width:350px;
+    height:228px;
+    margin: auto;
+}
+
 #pig, #pig-mobile {
     width:140px;
     height:95px;
+    margin: auto;
+}
+
+#pig-desktop {
+    width:340px;
+    height:228px;
     margin: auto;
 }
 
